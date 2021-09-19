@@ -1,0 +1,98 @@
+2021-09-02T23:18:04.297Z [my-bank-api] info: api started
+2021-09-02T23:25:06.049Z [my-bank-api] info: api started
+2021-09-02T23:25:25.790Z [my-bank-api] info: api started
+2021-09-02T23:25:26.693Z [my-bank-api] error: PATCH /accounts - Cannot set property 'balance' of undefined
+2021-09-02T23:34:40.329Z [my-bank-api] info: api started
+2021-09-02T23:34:45.355Z [my-bank-api] info: api started
+2021-09-02T23:36:12.376Z [my-bank-api] info: api started
+2021-09-02T23:36:30.454Z [my-bank-api] info: api started
+2021-09-02T23:37:20.883Z [my-bank-api] info: api started
+2021-09-02T23:39:50.237Z [my-bank-api] info: api started
+2021-09-02T23:42:43.740Z [my-bank-api] info: api started
+2021-09-02T23:43:01.827Z [my-bank-api] info: api started
+2021-09-02T23:45:27.274Z [my-bank-api] info: api started
+2021-09-03T00:01:57.841Z [my-bank-api] info: api started
+2021-09-03T01:58:47.610Z [my-bank-api] info: Api started and file
+2021-09-11T13:20:46.007Z [my-bank-api] info: api started
+2021-09-11T13:20:58.234Z [my-bank-api] error: POST /accounts - fs is not defined
+2021-09-11T13:21:33.272Z [my-bank-api] info: api started
+2021-09-11T13:38:13.421Z [my-bank-api] info: api started
+2021-09-11T14:04:44.660Z [my-bank-api] info: api started
+2021-09-11T14:07:18.430Z [my-bank-api] info: api started
+2021-09-11T15:07:47.676Z [my-bank-api] info: api started
+2021-09-11T15:10:39.679Z [my-bank-api] info: api started
+2021-09-11T15:27:22.585Z [my-bank-api] info: api started
+2021-09-18T13:22:41.644Z [my-bank-api] info: api started
+2021-09-18T13:22:50.855Z [my-bank-api] info: GET /account/1
+2021-09-18T13:22:51.493Z [my-bank-api] info: GET /account/1
+2021-09-18T13:22:53.496Z [my-bank-api] info: GET /account/2
+2021-09-18T14:53:34.004Z [my-bank-api] info: api started
+2021-09-18T14:53:36.237Z [my-bank-api] error: GET /accounts - getAccounts is not defined
+2021-09-18T14:54:30.582Z [my-bank-api] info: api started
+2021-09-18T14:54:31.562Z [my-bank-api] error: GET /accounts - account is not defined
+2021-09-18T14:54:32.306Z [my-bank-api] error: GET /accounts - account is not defined
+2021-09-18T14:55:35.464Z [my-bank-api] error: GET /accounts - account is not defined
+2021-09-18T14:55:42.459Z [my-bank-api] error: GET /accounts - account is not defined
+2021-09-18T14:55:52.505Z [my-bank-api] info: api started
+2021-09-18T14:55:53.798Z [my-bank-api] info: GET /account/2
+2021-09-18T14:55:57.094Z [my-bank-api] info: GET /account/1
+2021-09-18T14:56:22.044Z [my-bank-api] info: POST /accounts
+2021-09-18T14:56:40.369Z [my-bank-api] info: api started
+2021-09-18T14:56:42.366Z [my-bank-api] info: POST /accounts
+2021-09-18T14:56:42.496Z [my-bank-api] info: POST /accounts
+2021-09-18T14:57:08.885Z [my-bank-api] info: api started
+2021-09-18T14:57:13.885Z [my-bank-api] info: POST /accounts
+2021-09-18T14:57:34.626Z [my-bank-api] info: api started
+2021-09-18T14:57:36.166Z [my-bank-api] info: POST /accounts
+2021-09-18T14:57:41.708Z [my-bank-api] info: api started
+2021-09-18T14:59:35.016Z [my-bank-api] info: api started
+2021-09-18T14:59:43.805Z [my-bank-api] info: POST /accounts
+2021-09-18T15:02:55.584Z [my-bank-api] info: api started
+2021-09-18T15:03:06.807Z [my-bank-api] info: api started
+2021-09-18T15:03:19.501Z [my-bank-api] info: api started
+2021-09-18T15:05:44.158Z [my-bank-api] info: api started
+2021-09-18T15:07:56.619Z [my-bank-api] info: api started
+2021-09-18T15:10:08.226Z [my-bank-api] info: api started
+2021-09-18T15:10:16.751Z [my-bank-api] info: api started
+2021-09-18T23:08:18.232Z [my-bank-api] info: api started
+2021-09-18T23:08:19.604Z [my-bank-api] error: GET /accounts - data is not defined
+2021-09-18T23:08:28.780Z [my-bank-api] info: api started
+2021-09-18T23:08:30.082Z [my-bank-api] info: GET /accounts
+2021-09-18T23:09:11.041Z [my-bank-api] info: POST /accounts
+2021-09-18T23:09:13.726Z [my-bank-api] info: POST /accounts
+2021-09-18T23:09:16.394Z [my-bank-api] info: GET /accounts
+2021-09-18T23:09:20.474Z [my-bank-api] info: GET /account/10
+2021-09-18T23:09:24.475Z [my-bank-api] info: GET /account/9
+2021-09-18T23:11:39.918Z [my-bank-api] info: api started
+2021-09-18T23:11:45.334Z [my-bank-api] info: GET /account/11
+2021-09-18T23:14:02.876Z [my-bank-api] info: api started
+2021-09-18T23:14:06.856Z [my-bank-api] info: api started
+2021-09-18T23:19:35.595Z [my-bank-api] info: api started
+2021-09-18T23:22:09.074Z [my-bank-api] error: DELETE /accounts - data is not defined
+2021-09-18T23:23:10.564Z [my-bank-api] info: api started
+2021-09-18T23:23:14.029Z [my-bank-api] error: DELETE /accounts - Cannot read property 'filter' of undefined
+2021-09-18T23:25:13.780Z [my-bank-api] info: api started
+2021-09-18T23:25:57.504Z [my-bank-api] error: DELETE /accounts - jsonAccount.filter is not a function
+2021-09-18T23:26:06.702Z [my-bank-api] info: api started
+2021-09-18T23:32:11.688Z [my-bank-api] info: api started
+2021-09-18T23:34:26.947Z [my-bank-api] info: api started
+2021-09-18T23:37:31.752Z [my-bank-api] info: api started
+2021-09-18T23:37:45.673Z [my-bank-api] info: DELETE /account/1
+2021-09-18T23:37:48.948Z [my-bank-api] info: DELETE /account/2
+2021-09-18T23:38:06.338Z [my-bank-api] info: GET /accounts
+2021-09-18T23:39:47.385Z [my-bank-api] info: api started
+2021-09-18T23:46:34.180Z [my-bank-api] info: api started
+2021-09-18T23:47:04.206Z [my-bank-api] info: api started
+2021-09-18T23:52:58.472Z [my-bank-api] error: PUT /accounts - Name e balance são obrigatórios
+2021-09-18T23:55:03.964Z [my-bank-api] info: api started
+2021-09-18T23:55:13.731Z [my-bank-api] error: PUT /accounts - Name e balance são obrigatórios
+2021-09-18T23:55:51.513Z [my-bank-api] info: api started
+2021-09-18T23:55:53.967Z [my-bank-api] error: PUT /accounts - Conta não encontrada
+2021-09-18T23:55:58.397Z [my-bank-api] error: PUT /accounts - Conta não encontrada
+2021-09-18T23:56:00.472Z [my-bank-api] info: PUT /account/3
+2021-09-18T23:56:07.443Z [my-bank-api] info: api started
+2021-09-18T23:58:16.766Z [my-bank-api] info: api started
+2021-09-18T23:58:19.896Z [my-bank-api] info: api started
+2021-09-18T23:59:14.494Z [my-bank-api] info: api started
+2021-09-19T00:02:38.650Z [my-bank-api] info: PATCH /account/3
+2021-09-19T00:02:41.938Z [my-bank-api] info: PATCH /account/4

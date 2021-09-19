@@ -1,78 +1,19 @@
 import express from 'express';
-import { response } from 'express';
-import {promises as fs} from 'fs';
+import AccountController from "../controllers/AccountController.js";
 
 const router = express.Router();
 
-router.post('/', async (request, response) => {
-    const data = request.body;
+router.get('/', AccountController.index);
+router.post('/', AccountController.create);
+router.get('/:id', AccountController.show);
+router.delete('/:id', AccountController.destroy);
+router.put('/:id', AccountController.update);
+router.patch('/:id', AccountController.updateBalance);
 
-    try {
-        const jsonData = JSON.parse(await fs.readFile(global.fileName));
-
-        const account = {
-            id: jsonData.nextId++,
-            ...data
-        };
-
-        jsonData.accounts.push(account);
-
-        await fs.writeFile(global.fileName, JSON.stringify(jsonData, null, 2));
-
-        response.send(account);
-    }catch (error) {
-        response.status(400).send({error: error.message});
-    }
-});
-
-router.get('/', async (request, response) => {
-
-    try {
-        const jsonData = JSON.parse(await fs.readFile(global.fileName));
-        delete jsonData.nextId;
-        response.send(jsonData);
-    } catch (error) {
-        response.status(400).send({error: error.message});
-    }
-
-});
-
-router.get('/:id', async (request, response) => {
-
-    try {
-        const id = parseInt(request.params.id);
-
-        const jsonData = JSON.parse(await fs.readFile(global.fileName));
-
-        const accounts = jsonData.accounts;
-
-        const account = accounts.find(account => account.id === id);
-        
-        response.send(account);
-    } catch (error) {
-        response.status(400).send({error: error.message});
-    }
-
-});
-
-router.delete('/:id', async (request, response) => {
-
-    try {
-        const id = parseInt(request.params.id);
-
-        const jsonData = JSON.parse(await fs.readFile(global.fileName));
-
-        jsonData.accounts = jsonData.accounts.filter(
-            account => account.id !== id
-        );
-        
-        await fs.writeFile(global.fileName, JSON.stringify(jsonData, null, 2));
-
-        response.status(204).send({});
-    } catch (error) {
-        response.status(400).send({error: error.message});
-    }
-
+router.use((err, req, res, next) => {
+    logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
+    console.log(err);
+    res.status(400).send({err: err.message});
 });
 
 export default router;
